@@ -1,0 +1,698 @@
+body{
+    margin:0;
+    font-family: "Inter";
+    background-color: #1B2316;
+background-image: url(IMAGE/fond.jpg);
+
+
+
+}
+
+p{
+    color: white;
+}
+#navbar{
+    width: 80%;
+    height: 20%;
+    display: flex;
+align-items: center;
+    justify-content: space-around;
+}
+
+#nav2{
+    height: 100%;
+font-family: "Inter";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    font-size: 40px;
+    
+}
+#nav1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+#logo{
+    height: 50%;
+    position: relative;
+    top: 80px;
+    right: 70px;
+}
+#planty{
+color: gainsboro;
+font-size: 80px;
+font-weight: bold;
+position: relative;
+right: 150px;
+}
+#img1{
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+}
+#img2,#img3{
+    width: 40px;
+    height: 40px;
+    color: aliceblue;
+}
+#nav3 img {
+   position: relative;
+   font-size: 40px;
+   left: 400px;
+
+
+}
+#pretitle{
+    position: relative;
+    bottom: -200px;
+    display: flex;
+    padding:200px;
+    height: 100%;
+    width: 40%;
+}
+#nat{
+    position: absolute;
+    bottom: 100px;
+    right:500px;
+    color: rgba(220, 220, 220, 0.845);
+    font-size: 200px;
+    font-weight: bold;
+}
+#lorem1{
+    color:ghostwhite;
+    position: absolute;
+    font-size: 30px;
+    top: 150px;
+    left:45px ;
+}
+#btn1{
+    padding: 30px;
+    width: 220px;
+    height: 50px;
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 3px solid white;
+    border-radius: 15px;
+    position: absolute;
+    top: 310px;
+    left: 30px;
+}
+#dec{
+    position: absolute;
+top: -5px;
+left: 10px;
+    font-size: 30px;
+}
+#plant1{
+    position: relative;
+    bottom: 200px;
+    left: 1600px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+}
+#img11{
+    position: absolute;
+    bottom: 200px;
+    left: -20px;
+}
+#p1{
+    position: absolute;
+    top:  300px;
+    left: 60px;
+    color: gainsboro;
+    font-size: 30px;
+}
+#p2{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    font-size: 50px;
+    color: gainsboro;
+}
+#btn2{
+position: absolute;
+top: 500px;
+
+padding: 20px;
+width: 260px;
+height: 90px;
+background-color: rgba(240, 248, 255, 0.003);
+border-radius: 20px;
+border: 2px white solid ;
+}
+#acheter{
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    color:white;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace
+}
+#trend{
+    position: relative;
+
+    bottom: 180px;
+    display:flex;
+    width: 600px;
+
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    left: 800px;
+    
+    border: 3px solid  #55B000  ;
+    border-radius:  0px 30px 0px 30px;
+   
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#plantetrend1{
+    position: relative;
+    left: 150px;
+    padding: 100px;
+    height: 400px;
+    width:80% ;
+    backdrop-filter: blur(10px);
+background-color: rgba(255, 255, 255, 0.104);
+border-top: 1px rgba(255, 255, 255, 0.344) solid;
+border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+border-radius: 200px;
+}
+#plantetrend1 img{
+    position: absolute;
+left: -50px;
+top: -200px;
+
+}
+#plantetrend1 h3{
+    position:absolute;
+    font-size: 40px;
+    left:1200px;
+    bottom:  400px;
+    color:white;
+}
+
+#lorem2{
+    position:absolute;
+    left:1200px;
+    top: 190px;
+    font-size: 20px;
+}
+#plantetrend1  button{
+position: absolute;
+padding: 30px;
+height: 40px;
+width: 220px;
+background-color: rgba(255, 255, 255, 0);
+border-radius: 10px;
+border: 3px white solid ;
+left: 1200px;
+top: 400px;
+}
+#prix1{
+position: absolute;
+left: 1200px;
+bottom: 260px;
+font-size: 30px;
+font-weight: bold;
+
+}
+#plantetrend2{
+    position: relative;
+    bottom: -140px;
+    left: 150px;
+    padding: 100px;
+    height: 400px;
+    width:80% ;
+    backdrop-filter: blur(10px);
+background-color: rgba(255, 255, 255, 0.104);
+border-top: 1px rgba(255, 255, 255, 0.344) solid;
+border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+border-radius: 200px;
+}
+#plantetrend2 img{
+    position: absolute;
+left: 1300px;
+top: -200px;
+}
+#plantetrend2 h3{
+    position:absolute;
+    font-size: 40px;
+    left:130px;
+    bottom:  400px;
+    color:white;
+}
+
+#lorem3{
+    position:absolute;
+    left:120px;
+    top: 190px;
+    font-size: 20px;
+}
+#plantetrend2  button{
+position: absolute;
+padding: 30px;
+height: 40px;
+width: 220px;
+background-color: rgba(255, 255, 255, 0);
+border-radius: 10px;
+border: 3px white solid ;
+left: 120px;
+top: 400px;
+}
+#prix2{
+position: absolute;
+left: 120px;
+bottom: 260px;
+font-size: 30px;
+font-weight: bold;
+
+}
+#meilleurventes{
+    position: relative;
+    bottom: -200px;
+    height: 500vh;
+    width: 100%;
+    background-color: #1B2316;
+    
+}
+
+#meilleurventestitle{
+    font-size: 50px;
+    position: relative;
+    color: aliceblue;
+  width: 700px;
+  height: 100px;
+   left: 800px;
+  border: 3px solid  #55B000  ;
+  border-radius:  0px 30px 0px 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+#calathea1{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+}
+#calathea2{
+    position: relative;
+    bottom: 500px;
+    left: 900px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+}
+#calathea3{
+    position: relative;
+    bottom: 1200px;
+    left: 1700px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+}
+#calathea3 img{
+    position: absolute;
+    left: -20px;
+    bottom: 200px;
+
+}
+#calathea1 img{
+    position: absolute;
+    right: 20px;
+    bottom: 200px;
+
+}
+#calathea3 p{
+    position: absolute;
+        bottom: 300px;
+    color: gainsboro;
+    font-size: 40px;
+}
+#calathea1 p{
+    position: absolute;
+        bottom: 300px;
+    color: gainsboro;
+    font-size: 40px;
+}
+#calathea2 img{
+    position: absolute;
+    left: -20px;
+    bottom: 250px;
+    height: 700px;
+
+}
+#calathea2 p{
+    position: absolute;
+    bottom: 300px;
+color: gainsboro;
+font-size: 40px;
+}
+#lorem4{
+ position: absolute;
+top: 370px;
+    color: gainsboro;
+    font-size: 30px;
+}
+#calathea4{
+    position: relative;
+    bottom: 1100px;
+    left: 1700px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+
+}
+#calathea4 img{
+    position: absolute;
+    bottom: 180px;
+    right: -30px;
+}
+#calathea4 p{
+    position: absolute;
+    bottom: 280px;
+color: gainsboro;
+font-size: 40px;
+}
+#calathea5{
+    position: relative;
+    bottom: 1800px;
+    left: 900px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+}
+#calathea5 img{
+    position: absolute;
+    top: -120px;
+    left: 10px;
+}
+#calathea5 p{
+    position: absolute;
+    bottom: 270px;
+color: gainsboro;
+font-size: 40px;
+}
+#calathea6{
+    position: relative;
+    bottom: 2500px;
+    left: 100px;
+    width: 400px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+}
+#calathea6 img{
+    position: absolute;
+    bottom: 200px;
+    left: -30px;
+}
+#calathea6 p{
+    position: absolute;
+    bottom: 270px;
+color: gainsboro;
+font-size: 40px;
+}
+#avisdesgens{
+    font-size: 50px;
+    position: relative;
+    color: aliceblue;
+  width: 700px;
+  bottom: 3800px;
+  height: 100px;
+   left: 800px;
+  border: 3px solid  #55B000  ;
+  border-radius:  0px 30px 0px 30px;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+#com1{
+    
+    position: relative;
+    bottom: 3600px;
+    left: 100px;
+    width: 350px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;  
+}
+#anony1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+}
+#et1{
+    position: absolute;
+    bottom: 290px;
+    left: 225px;
+}
+#lorem5{
+    position: absolute;
+    bottom: 100px;
+    font-size: 20px;
+    left: 30px;
+}
+#ahmed{
+position: absolute;
+left: 230px;
+font-size: 40px;
+font-weight: bold;
+}
+#com2{
+    position: relative;
+    bottom: 4100px;
+    left: 800px;
+    width: 350px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;  
+}
+#anony2,#anony3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 100px;
+
+}
+#et2,#et3{
+    position: absolute;
+    bottom: 290px;
+    left: 225px; 
+}
+#com3{
+    position: relative;
+    bottom: 4600px;
+    left: 1500px;
+    width: 350px;
+    height: 300px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;  
+
+}
+#meuilleuro2{
+    font-size: 50px;
+    position: relative;
+    color: aliceblue;
+  width: 700px;
+  bottom: 4300px;
+  font-weight: bold;
+  height: 100px;
+   left: 900px;
+  border: 3px solid  #55B000  ;
+  border-radius:  0px 30px 0px 30px;
+  background-color: rgba(255, 255, 255, 0);
+}
+#meuilleuro2div{
+    position: relative;
+    bottom: -250px;
+    left: -800px;
+    width: 2000px;
+    height: 700px;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    background-color:rgba(220, 220, 220, 0.086);
+    border-top: 1px rgba(255, 255, 255, 0.344) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.344) solid;
+    padding: 100px;
+    border-radius: 150px;
+}
+#img22{
+    position: absolute;
+    bottom: -400px;
+    left: -300px;
+    width: 1400px;
+    height: 1400px;
+}
+#t{
+    position: absolute;
+    left: 1100px;
+    color: gainsboro;
+    }
+#lorem6{
+    position: absolute;
+    left: 900px;
+    bottom:400px;
+    color: gainsboro;
+}
+#lorem7{
+    position: absolute;
+    left: 900px;
+    bottom: 190px;
+    color: gainsboro;
+}
+#btn4{
+    position: absolute;
+    top: 700px;
+    left: 900px;
+    color: white;
+    font-size: 30px;
+padding: 20px;
+width: 260px;
+height: 90px;
+background-color: rgba(240, 248, 255, 0.003);
+border-radius: 20px;
+border: 2px white solid ;
+}
+#footer{
+    padding: 200px;
+    height: 400px;
+    position: relative;
+    background-color: #2f3e27;
+bottom: 2800px;
+}
+#flogo{
+    height: 40%;
+    position: absolute;
+    top: 80px;
+    right: 2100px;
+}
+#fplanty{
+color: gainsboro;
+font-size: 60px;
+font-weight: bolder;
+position: absolute;
+top: 70px;
+right: 1900px; 
+}
+#lorem8{
+    font-size: 50px;
+    position: absolute;
+ right: 1500px;
+ left: 130px;
+}
+#fmise{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 1800px;
+    top: 100px;
+}
+#email{
+    position: absolute;
+    left: 1650px;
+    top: 300px;
+background-color: rgba(240, 248, 255, 0);
+border: 3px solid white;
+border-radius: 10px;
+    width: 700px;
+    height: 100px;
+}
+#email ::placeholder{
+    color: white;
+    font-size: 20px;
+}
+#btn5{
+    position: absolute;
+    top: 700px;
+    left: 900px;
+    color: black;
+    background-color: white;
+    width: 206px;
+    height: 94px;
+    font-size: 30px;
+    border-radius: 10px;
+    left: 2150px;
+    top: 306px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#fr{
+    position: absolute;
+    left: 1640px;
+    bottom: 100px;
+    font-size: 30px;
+}
+#flien{
+    position:absolute;
+    left: 1100px;
+    top: 100px;
+    color:white;
+    font-size:30px ;
+   font-weight: bold;
+}
+#flist{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1050px;
+}
+
